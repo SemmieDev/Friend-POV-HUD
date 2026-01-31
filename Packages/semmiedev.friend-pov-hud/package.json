@@ -1,0 +1,17 @@
+{
+  "name": "semmiedev.friend-pov-hud",
+  "displayName": "Friend POV HUD",
+  "version": "1.0.0",
+  "author": {
+    "name": "SemmieDev"
+  },
+  "unity": "2022.3",
+  "description": "A very customizable HUD element for my Friend POV system",
+  "legacyFolders": {
+    "Assets\\Friend POV HUD": "5d9a12276befa924da7149c0c99a3245"
+  },
+  "vpmDependencies": {
+    "semmiedev.friend-pov": "1.x",
+    "com.vrcfury.vrcfury": "*"
+  }
+}
