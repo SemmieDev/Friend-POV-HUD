@@ -27,7 +27,7 @@ Transform:
   m_GameObject: {fileID: 4077375861293944086}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -95,6 +95,7 @@ GameObject:
   - component: {fileID: 6664657181389441451}
   - component: {fileID: 1013013654471939032}
   - component: {fileID: 2240303517513089435}
+  - component: {fileID: 7342102351999399050}
   - component: {fileID: 3748007557506762360}
   m_Layer: 0
   m_Name: Friend POV HUD
@@ -150,7 +151,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1279.0
+  vrcfuryVersion: 1.1429.0
   somethingIsBroken: 0
   config:
     features: []
@@ -190,7 +191,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1279.0
+  vrcfuryVersion: 1.1429.0
   somethingIsBroken: 0
   config:
     features: []
@@ -236,6 +237,7 @@ MonoBehaviour:
         rootBindingsApplyToAvatar: 0
         rewriteBindings: []
         allowMissingAssets: 0
+        injectParams: []
         injectSpsDepthParam: 
         injectSpsVelocityParam: 
         controller:
@@ -260,6 +262,60 @@ MonoBehaviour:
         removePrefixes: []
         addPrefix: 
         useSecurityForToggle: 0
+--- !u!114 &7342102351999399050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7558815675887297049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1429.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 52962649191481344
+  references:
+    version: 2
+    RefIds:
+    - rid: 52962649191481344
+      type: {class: ArmatureLink, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 7
+        propBone: {fileID: 0}
+        linkTo:
+        - useBone: 1
+          bone: 10
+          useObj: 0
+          obj: {fileID: 0}
+          offset: 
+        removeBoneSuffix: 
+        removeParentConstraints: 1
+        forceMergedName: 
+        forceOneWorldScale: 0
+        recursive: 0
+        alignPosition: 1
+        alignRotation: 1
+        alignScale: 0
+        autoScaleFactor: 1
+        scalingFactorPowersOf10Only: 1
+        skinRewriteScalingFactor: 1
+        useOptimizedUpload: 0
+        useBoneMerging: 0
+        keepBoneOffsets: 0
+        physbonesOnAvatarBones: 0
+        boneOnAvatar: 0
+        bonePathOnAvatar: 
+        fallbackBones: 
+        keepBoneOffsets2: 0
+        linkMode: 4
 --- !u!95 &3748007557506762360
 Animator:
   serializedVersion: 5
