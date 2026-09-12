@@ -289,7 +289,7 @@ MonoBehaviour:
       type: {class: ArmatureLink, ns: VF.Model.Feature, asm: VRCFury}
       data:
         version: 7
-        propBone: {fileID: 0}
+        propBone: {fileID: 7558815675887297049}
         linkTo:
         - useBone: 1
           bone: 10
